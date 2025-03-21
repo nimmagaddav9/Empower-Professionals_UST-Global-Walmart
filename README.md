@@ -474,7 +474,7 @@ Have top and bottom margins automatically added by browsers
 
 Can have their width and height properties set
 
-Examples include <div>, <p>, <h1> to <h6>, and <ul>
+*Examples include <div>, <p>, <h1> to <h6>, and <ul>*
 
 Inline Elements
 Inline elements behave differently:
@@ -487,7 +487,7 @@ Cannot have width and height properties set
 
 Top and bottom margins/paddings do not affect other elements
 
-Examples include <span>, <a>, <em>, and <strong>
+*Examples include <span>, <a>, <em>, and <strong>*
 
 Key Differences
 Layout: Block elements stack vertically, while inline elements flow horizontally
@@ -523,18 +523,18 @@ A closure is a feature in JavaScript where an inner function has access to the o
 Real-time example:
 
 javascript
-function createCounter() {
+<!-- function createCounter() {
   let count = 0;
   return function() {
     count++;
     console.log(count);
   };
-}
+} -->
 
-const counter = createCounter();
+<!-- const counter = createCounter();
 counter(); // Output: 1
 counter(); // Output: 2
-counter(); // Output: 3
+counter(); // Output: 3 -->
 In this example, the inner function forms a closure, retaining access to the count variable even after createCounter has executed. Each time we call counter(), it increments and logs the count value, demonstrating how closures can be used to create private state.
 
 
