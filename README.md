@@ -347,5 +347,122 @@ The SOLID principles guide my coding decisions and ensure that my code is clean,
 By adhering to these principles, I ensure that the code I write is modular, extensible, and easy to maintain, even as the system grows over time.
 
 ---
+Interview questions
 
-This approach showcases the depth of technical expertise and aligns with the requirements mentioned in the job description, including hands-on experience with JavaScript, TypeScript, Node.js, Jest, Redux, React, and Git, along with the ability to design complex systems, follow best practices, and accept feedback.
+1. What is relevant exp? technical exprerience?
+
+In past 2 years worked on React migration team where I converted the .net pages to react in united.com 
+Frontend is React, backend is Java. Used ATMOS library for CSS styling.
+Worked on Forgot password, Forgot MileagePlus number, security questions, Sign-in features, Miles-Pooling, United Club pass,  Recent Activity, dashboard updates and KTN(Known Traveler Number) , Accessibility guidelines features on united.com.
+New initiative worked on Miles-Pooling( points you get after traveling), TSA Precheck, Account security and management features, Under18.
+
+
+2. what is technical stack?
+
+
+React.js, 
+Redux-Saga, 
+JavaScript, 
+JSON, 
+Ajax, 
+HTML5, 
+CSS3, 
+Node.JS, 
+Rest, 
+Visual Studio Code, 
+Git/GitHub, TeamCity, 
+Postman, 
+Confluence, 
+Agile, 
+UI Analytics (Google Analytics, Quantum Metrics), 
+Mobile Web Technologies
+
+
+3. What i haved typescript, javascript, react.js, managing css?
+
+4. sort array in descending order? 
+5. all were string: "HELLO" - reverse all the words in string.
+
+6. What is server side rendering?
+7. How SEO works?
+
+8. what are caching mechnacism 
+Improved caching: Smaller, more focused code chunks are more likely to be cached by the browser
+
+9. useMemo and useCallback
+Memoization with useMemo and useCallback:  Use this hooks to memoize values and, reducing unnecessary recalculations.
+
+
+10. use of useMemo
+The useMemo hook is used to memoize expensive calcualtions so that they are not recalculated on every render.
+It takes a function to compute a value and an array of dependencies, and it onlyy recomputes the value when one of the dependencies has changed.
+
+11. CSS box model
+
+The CSS box model is a fundamental concept in web design that defines how elements are structured and displayed on a webpage. It consists of four main components:
+
+Content: The innermost part of the box, where text, images, or other media are displayed.
+
+Padding: The space between the content and the border. It increases the size of the element without affecting its position relative to other elements.
+
+Border: A line that wraps around the padding and content. It can be customized in terms of width, style, and color.
+
+Margin: The outermost part of the box model, creating space between the current element and surrounding elements.
+
+12. CSS display: visbility: hidden
+
+display: none removes the element completely from the document flow, leaving no space.
+
+visibility: hidden hides the element but preserves its space in the layout
+
+13. combinator in css ()
+14. pseudo classes
+15. inline and block level element?
+
+Block-level Elements
+Block-level elements have the following characteristics:
+
+They start on a new line and take up the full width available.
+
+They stack vertically, one after another.
+
+You can set width and height properties on block-level elements.
+
+Margins and paddings are respected on all sides.
+
+Common examples of block-level elements include:
+
+<div>
+
+<p>
+
+<h1> to <h6>
+
+<ul>, <ol>, <li>
+
+<section>, <article>, <header>, <footer>
+
+
+Inline Elements
+Inline elements have these properties:
+
+They do not start on a new line and only occupy the space their content requires.
+
+They flow in-line with the text content, allowing other elements to sit beside them.
+
+Width and height properties do not apply to inline elements.
+
+Vertical margins and paddings are not fully respected.
+
+Common examples of inline elements include:
+
+<span>
+
+<a>
+
+<img>
+
+<em>, <strong>, <i>, <b>
+
+hoisting, closure in real time example
+
