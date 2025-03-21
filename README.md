@@ -380,11 +380,54 @@ Mobile Web Technologies
 
 3. What i haved typescript, javascript, react.js, managing css?
 
+TypeScript
+
+I’ve worked with TypeScript in a few projects, primarily using it for static type-checking and ensuring better code quality. 
+I appreciate how it helps prevent bugs and improves developer productivity by catching errors early in the development process.
+
+TypeScript is a superset of JavaScript that adds static typing and other features. I've used TypeScript to:
+Enforce strict null checks for better error prevention
+Create reusable and flexible code using generics
+Improve code maintainability and catch errors early in development
+
+React.js
+I've worked extensively with React.js, including:
+
+Creating and managing components
+Utilizing hooks like useState, useEffect, useMemo, and useContext
+Implementing routing for multi-page applications
+Optimizing performance using techniques like memoization
+
+Managing CSS
+For CSS management, I follow best practices such as:
+Organizing CSS into smaller, manageable files
+Using CSS modules for component-specific styling
+Implementing naming conventions like BEM for clear, organized CSS
+Optimizing performance by removing unused CSS and minifying files
+Utilizing CSS-in-JS solutions when appropriate for React components
+
+I also ensure cross-browser compatibility and implement responsive design principles. 
+Additionally, I'm familiar with CSS preprocessors like Sass for more efficient styling workflows
+
+
 4. sort array in descending order? 
 5. all were string: "HELLO" - reverse all the words in string.
 
 6. What is server side rendering?
+
 7. How SEO works?
+Server-side rendering (SSR) in React.js is a technique where web pages are rendered on the server before being sent to the client's browser. This approach offers several benefits:
+
+Faster initial page load: SSR provides quicker initial content delivery, reducing the time to first contentful paint.
+
+Improved SEO: Search engines can easily crawl and index server-rendered content, enhancing your site's visibility in search results.
+
+Better performance on slower devices or networks: SSR is beneficial for users with limited processing power or slow internet connections.
+
+Enhanced user experience: Users see fully-rendered content immediately, without waiting for JavaScript to load and execute.
+
+Improved social media sharing: SSR generates shareable, fully-rendered HTML content, making pages more visually appealing when shared on social platforms
+
 
 8. what are caching mechnacism 
 Improved caching: Smaller, more focused code chunks are more likely to be cached by the browser
@@ -420,49 +463,82 @@ visibility: hidden hides the element but preserves its space in the layout
 15. inline and block level element?
 
 Block-level Elements
+
 Block-level elements have the following characteristics:
 
-They start on a new line and take up the full width available.
+Always start on a new line
 
-They stack vertically, one after another.
+Occupy the full width available in their parent container
 
-You can set width and height properties on block-level elements.
+Have top and bottom margins automatically added by browsers
 
-Margins and paddings are respected on all sides.
+Can have their width and height properties set
 
-Common examples of block-level elements include:
-
-<div>
-
-<p>
-
-<h1> to <h6>
-
-<ul>, <ol>, <li>
-
-<section>, <article>, <header>, <footer>
-
+Examples include <div>, <p>, <h1> to <h6>, and <ul>
 
 Inline Elements
-Inline elements have these properties:
+Inline elements behave differently:
 
-They do not start on a new line and only occupy the space their content requires.
+Do not start on a new line
 
-They flow in-line with the text content, allowing other elements to sit beside them.
+Only occupy the space their content requires
 
-Width and height properties do not apply to inline elements.
+Cannot have width and height properties set
 
-Vertical margins and paddings are not fully respected.
+Top and bottom margins/paddings do not affect other elements
 
-Common examples of inline elements include:
+Examples include <span>, <a>, <em>, and <strong>
 
-<span>
+Key Differences
+Layout: Block elements stack vertically, while inline elements flow horizontally
 
-<a>
+Width: Block elements stretch to fill their container, inline elements only take necessary width
 
-<img>
+Line breaks: Block elements force new lines, inline elements do not
 
-<em>, <strong>, <i>, <b>
+Box model application: The box model applies fully to block elements, but only partially to inline elements
 
-hoisting, closure in real time example
 
+What is hoisting, closure in real time example
+
+Hoisting
+Hoisting is JavaScript's behavior of moving declarations to the top of their containing scope during the compilation phase, before code execution. This means you can use variables and functions before they are formally declared in your code.
+
+Real-time example:
+
+javascript
+console.log(greet()); // Output: "Hello, World!"
+
+function greet() {
+  return "Hello, World!";
+}
+
+console.log(x); // Output: undefined
+var x = 5;
+In this example, the greet function is called before its declaration, but it works due to hoisting. The variable x is accessed before its declaration, returning undefined because only the declaration is hoisted, not the initialization.
+
+Closures
+A closure is a feature in JavaScript where an inner function has access to the outer function's variables, even after the outer function has finished executing.
+
+Real-time example:
+
+javascript
+function createCounter() {
+  let count = 0;
+  return function() {
+    count++;
+    console.log(count);
+  };
+}
+
+const counter = createCounter();
+counter(); // Output: 1
+counter(); // Output: 2
+counter(); // Output: 3
+In this example, the inner function forms a closure, retaining access to the count variable even after createCounter has executed. Each time we call counter(), it increments and logs the count value, demonstrating how closures can be used to create private state.
+
+
+Practical Applications
+Hoisting: Understanding hoisting helps prevent bugs and unexpected behavior. It's best practice to declare variables and functions at the beginning of their scope for better readability.
+
+Closures: Closures are useful for data privacy, creating function factories, and implementing module patterns. They allow for powerful programming techniques in JavaScript.
