@@ -542,3 +542,15 @@ Practical Applications
 Hoisting: Understanding hoisting helps prevent bugs and unexpected behavior. It's best practice to declare variables and functions at the beginning of their scope for better readability.
 
 Closures: Closures are useful for data privacy, creating function factories, and implementing module patterns. They allow for powerful programming techniques in JavaScript.
+
+============================================================================================================
+
+What are the popular hooks in react and explain it's usage?
+
+useState: Manages state in functional components.
+useEffect: Manages side effects in functional components.
+useContext: Consumes context in functional components.
+useReducer: Manage state with a reducer function, For More complex state management.
+useRef: Accesses DOM elements or stores mutable values.
+useCallback: performance improvement usecase
+useMemo: performance improvement usecase.
