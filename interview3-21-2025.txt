@@ -1,0 +1,72 @@
+Interview Question and answers
+
+1. Tell me about yourself.
+
+2. Which version of react?
+
+3. How to optimize performance in react ?
+
+4. What is Promise.all() and race?
+
+5. difference between useMemo and useCallback?
+
+6. Have you used async/await? use?
+
+7. What are hooks in react? use?
+
+8. did you work on custom hooks?
+
+9. Can we useHelp() hook instead of custom hook
+
+10. what is callback?
+
+11. what is callback hell?
+
+12. have you worked on NodeJS?
+
+13. difference between fetch and axios module?
+
+14. call api in react syntax?
+
+15. what is hoisting? explain with example?
+
+console.log(a); // Uncaught ReferenceError: a is not defined
+let a; 
+
+console.log(a); // Uncaught ReferenceError: a is not defined
+let a = 10;
+
+
+16. What is promise?
+
+17. What is synchronous and asynchronous calls?
+
+18. What operations did you perform in NodeJS?
+
+19. callback hell resolve?
+
+20. What is a closure in JavaScript?
+
+21. can we write application in redux instead of redux-saga?
+
+22. what is difference redux, redux-thunk, redux-saga?
+
+23. explain how redux architecture works? example?
+
+24. what is react 19 features?
+
+25. what is useRef() hook?
+
+26. useLayoutEffect? useLayoutEffect fires before the browser repaints the screen. You can measure layout here.
+
+27. what is synchronous vs asynchronous call?
+
+
+
+React
+
+performance opt
+
+Javascript
+
+Redux
